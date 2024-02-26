@@ -1,6 +1,5 @@
 # MA2806 Group Project: PROJECT TITLE HERE
 
-Copy the following markdown text into your own project's README.md file. 
 Fill out the information below each heading, add images, and REPLACE the text prompts 
 with a paragraph (or more) of your own text. 
 
@@ -8,7 +7,7 @@ with a paragraph (or more) of your own text.
 
 ![Main Screenshot Here](PASTE_IMAGE_URL_INSIDE_BRACKETS_HERE)
 
-## Themes of the project
+## Theme
 
 What is the project about? 
 
