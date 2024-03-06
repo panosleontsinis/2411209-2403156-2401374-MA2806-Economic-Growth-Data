@@ -1,5 +1,4 @@
-# MA2806 Project: Factors determining ​
-economic growth
+# MA2806 Project: Factors Determining ​Economic Growth
 
 Fill out the information below each heading, add images, and REPLACE the text prompts 
 with a paragraph (or more) of your own text. 
