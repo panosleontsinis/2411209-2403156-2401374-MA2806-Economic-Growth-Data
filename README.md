@@ -21,10 +21,10 @@ Factors Determining ​Economic Growth:
 Where did you get your data from? 
 What problems did you encounter in the dataset?
 
-## 3-5 moodboard images
+## Moodboard images
 
 Work in progress
-(colour palettes, pixel art styles, images from videogames/films etc).
+(3-5 colour palettes, pixel art styles, images from videogames/films etc).
 
 ![Moodboard Image 1](PASTE_IMAGE_URL_INSIDE_BRACKETS_HERE)
 ![Moodboard Image 2](PASTE_IMAGE_URL_INSIDE_BRACKETS_HERE)
