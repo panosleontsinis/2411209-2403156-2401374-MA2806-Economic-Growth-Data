@@ -9,13 +9,12 @@ Work in progress..
 
 ## Theme
 
-Factors determining ​
-economic growth:
-Macroeconomic factors
-World Development Indicators
-Imports and exports
-Health statistcs
-Education
+Factors Determining ​Economic Growth:
+ Macroeconomic factors
+ World Development Indicators
+ Imports and exports
+ Health statistcs
+ Education
 
 ## Use of Datasets
 
