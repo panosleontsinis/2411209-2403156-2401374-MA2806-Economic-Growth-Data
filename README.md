@@ -31,7 +31,9 @@ Work in progress
 ![Moodboard Image 3](PASTE_IMAGE_URL_INSIDE_BRACKETS_HERE)
 
 ## Group member role descriptions
-Individual project
+Panos - Design (creating visualisations) + background research
+Gabija - Background research
+Muhammad - Design (creating website)
 
 ## Further development?
 
