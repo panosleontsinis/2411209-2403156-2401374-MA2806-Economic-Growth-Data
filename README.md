@@ -1,8 +1,5 @@
 # MA2806 Project: Factors Determining ​Economic Growth
 
-Fill out the information below each heading, add images, and REPLACE the text prompts 
-with a paragraph (or more) of your own text. 
-
 ## Screenshot of the Project
 
 Work in progress..
@@ -33,9 +30,9 @@ Work in progress
 ![Moodboard Image 3](PASTE_IMAGE_URL_INSIDE_BRACKETS_HERE)
 
 ## Group member role descriptions
-Panos - Design (creating visualisations) + background research
-Gabija - Background research
-Muhammad - Design (creating website)
+- Panos - Design (creating visualisations) + background research
+- Gabija - Background research
+- Muhammad - Design (creating website)
 
 ## Further development?
 
