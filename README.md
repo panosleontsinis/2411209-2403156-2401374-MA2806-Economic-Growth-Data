@@ -6,16 +6,14 @@ Work in progress..
 
 ## Theme
 
-Factors Determining ​Economic Growth:
-- Macroeconomic factors
+Macroeconomic Factors Determining ​Economic Growth:
 - World Development Indicators
 - Imports and exports
 - Health statistcs
 - Education
 
-## Use of Datasets
+## Datasets used
 
-Where did you get your data from? 
 - The World Bank's data portal
 - Science direct
 - Ourworldindata.org
@@ -30,10 +28,11 @@ Work in progress
 ![Moodboard Image 3](PASTE_IMAGE_URL_INSIDE_BRACKETS_HERE)
 
 ## Group member role descriptions
-- Panos - Design (creating visualisations) + background research
+- Panos - Coding (creating visualisations) + background research
 - Gabija - Background research
-- Muhammad - Design (creating website)
+- Muhammad - Coding (creating website)
 
 ## Further development?
+
 
 --
