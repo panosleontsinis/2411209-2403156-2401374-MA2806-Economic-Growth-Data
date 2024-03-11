@@ -14,9 +14,9 @@ Macroeconomic Factors Determining ​Economic Growth:
 
 ## Datasets used
 
-- The World Bank's data portal
-- Science direct
-- Ourworldindata.org
+- The World Bank's data portal (https://databank.worldbank.org/source/ida-results-measurement-system,-tier-i-database-%e2%80%93-wdi)
+- Science Direct (https://www.sciencedirect.com/science/article/pii/S2405844021012123?via%3Dihub)
+- Our World In Data (https://ourworldindata.org/economic-growth#research-writing)
 
 ## Moodboard images
 
