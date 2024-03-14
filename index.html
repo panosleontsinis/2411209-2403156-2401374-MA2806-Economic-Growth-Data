@@ -6,12 +6,35 @@
     <!--IMPORTANT: THE BELOW <SCRIPT> TAG LINKS OUR CODE FILE INTO OUR PROJECT'S WEBPAGE.-->
     <script src="sketch.js"></script>
     <head>
+            <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with Subtitles</title>
+    <style>
+        /* CSS for styling the header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .subtitle {
+            font-size: 18px;
+            font-style: italic;
+        }
+    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Readex+Pro&display=swap" rel="stylesheet">
   </head>
   
     <body>
+            <header>
+        <h1>Main Title</h1>
+        <p class="subtitle">Subtitle for the Header</p>
+    </header>
     <!--THE BELOW LINE LOADS IN P5.JS. DO NOT EDIT!-->
     <script src="https://cdn.jsdelivr.net/npm/p5"></script>
   </body>
