@@ -34,5 +34,5 @@ Work in progress
 
 ## Further development?
 
-
+This project could be explanded on a wider scale to create further economical content to showcase on the webpage. Through the use of more datasets our project could provide visual data and statistical information regarding global economies which can create a webpage themed towards data analysts researching into statistical data.
 --
