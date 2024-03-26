@@ -34,5 +34,3 @@ Work in progress
 
 ## Further development?
 This project has the potential for expansion on a broader scale and can showcase wider economic content for presentation on the webpage. By incorporating additional datasets, our project could provide a bigger platform for visual data and statistical information relating to the global economies. This initiative could be exclusively tailored for data analysts engaged in statistical research.
-
---
