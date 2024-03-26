@@ -28,11 +28,11 @@ Work in progress
 ![Moodboard Image 3](PASTE_IMAGE_URL_INSIDE_BRACKETS_HERE)
 
 ## Group member role descriptions
-- Panos - Coding (creating visualisations) + background research
+- Panos - Coding website,visualisations + background research
 - Gabija - Background research
-- Muhammad - Coding (creating website)
+- Muhammad - Coding (creating visualisations)
 
 ## Further development?
+This project has the potential for expansion on a broader scale and can showcase wider economic content for presentation on the webpage. By incorporating additional datasets, our project could provide a bigger platform for visual data and statistical information relating to the global economies. This initiative could be exclusively tailored for data analysts engaged in statistical research.
 
-This project could be explanded on a wider scale to create further economical content to showcase on the webpage. Through the use of more datasets our project could provide visual data and statistical information regarding global economies which can create a webpage themed towards data analysts researching into statistical data.
 --
