@@ -2,7 +2,7 @@
 
 ## Screenshot of the Project
 
-![First Draft:](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/draft.PNG?raw=true)
+<img src=https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/draft.PNG?raw=true" width="200" />
 
 ## Theme
 
