@@ -11,6 +11,66 @@
     margin: 0;
     padding: 0;
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f2f2f2;
+    padding: 10px 0;
+    min-width: 160px;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    display: block;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
 
 header {
     background-color: #f2f2f2;
@@ -75,18 +135,31 @@ footer {
 <body>
 
 <header>
-    <h1>Economic Growth Factors</h1>
+  <h1>Economic Growth Factors</h1>
     <nav>
         <ul>
-            <li><a href="#">Introduction</a></li>
-            <li><a href="#">Macroeconomic Factors</a></li>
-            <li><a href="#">Microeconomic Factors</a></li>
-            <li><a href="#">Policy Influences</a></li>
-            <li><a href="#">Conclusion</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Factors</a>
+                <ul>
+                    <li><a href="#">Macroeconomic Factors</a></li>
+                    <li><a href="#">Microeconomic Factors</a></li>
+                    <li><a href="#">Policy Influences</a></li>
+                </ul>
+            </li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 </header>
+<section class="content">
+    <h2>Main Content Area</h2>
+    <p>This is the main content area of the website.</p>
+</section>
 
+<footer>
+    <p>&copy; 2024 Economic Growth Factors</p>
+</footer>
+    
 <section class="content">
     <h2>Introduction</h2>
     <p>TEXT AND VISUALISATIONS</p>
