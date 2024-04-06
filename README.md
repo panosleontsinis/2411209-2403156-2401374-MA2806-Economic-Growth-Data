@@ -2,10 +2,10 @@
 
 ## Screenshot of the Project
 
-![Moodboard Image 1](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/draft.PNG?raw=true)
 
 ## Theme
-
+The website is themed around data and statistics regarding economic data. Through different subsections within the website, data visualisations and images the website will compare global economies and give a wider image on economical factors.
+ 
 Macroeconomic Factors Determining ​Economic Growth:
 - World Development Indicators
 - Imports and exports
@@ -23,9 +23,8 @@ Macroeconomic Factors Determining ​Economic Growth:
 Work in progress
 (3-5 colour palettes, pixel art styles, images from videogames/films etc).
 
-![Moodboard Image 1](PASTE_IMAGE_URL_INSIDE_BRACKETS_HERE)
-![Moodboard Image 2](PASTE_IMAGE_URL_INSIDE_BRACKETS_HERE)
-![Moodboard Image 3](PASTE_IMAGE_URL_INSIDE_BRACKETS_HERE)
+![Moodboard Image 1](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/draft.PNG?raw=true)
+
 
 ## Group member role descriptions
 - Panos - Coding website,visualisations + background research
