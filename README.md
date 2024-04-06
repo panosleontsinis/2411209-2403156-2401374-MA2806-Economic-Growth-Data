@@ -32,4 +32,4 @@ Work in progress
 - Muhammad - Coding (creating visualisations)
 
 ## Further development?
-This project has the potential for expansion on a broader scale and can showcase wider economic content for presentation on the webpage. By incorporating additional datasets, our project could provide a bigger platform for visual data and statistical information relating to the global economies. This initiative could be exclusively tailored for data analysts engaged in statistical research. This project can collaborate with other organizations to compare data through various means of partnership and data-sharing agreements
+This project can be expanded on a larger scale and can present more diverse economic material for the webpage. Our project might offer a larger platform for statistical and visual data about the world economies if it included more datasets. This program might only be designed for data analysts working on statistical studies. This initiative can use partnerships and data-sharing agreements to work with other organizations to compare data.
