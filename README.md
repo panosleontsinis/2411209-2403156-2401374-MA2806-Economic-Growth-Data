@@ -24,7 +24,7 @@ Work in progress
 (3-5 colour palettes, pixel art styles, images from videogames/films etc).
 
 ![Moodboard Image 1](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/draft.PNG?raw=true)
-![Moodboard Image 2](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/CAPTURE.PNG?raw=true)
+![Moodboard Image 2](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/capture.PNG?raw=true)
 
 
 ## Group member role descriptions
