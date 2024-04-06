@@ -1,154 +1,142 @@
 <!DOCTYPE html>
-    <style>
-    
-        body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-        div {
-    display: block;
-    unicode-bidi: isolate;
-}
-body {
-    font-family: "Times New Roman", Georgia, Serif;
-    font-size: 15px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    background-color: #ffffff; /*BACKGROUND COLOUR*/
-    color: #00ccff; /*TEXT COLOUR*/
-    font-size: 24px;
-    padding: 20px;
-}
-
-
-h1 {
-    margin: 0;
-}
-
-nav ul {
-background-color: #ffffff;
-color: #00ccff;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.content {
-    padding: 20px;
-}
-
-footer {
-    background-color: #ffffff;
-    color: #00ccff;
-    text-align: center;
-    padding: 10px;
-}
-
-footer {
-    background-color: #ffffff;
-    color: #00ccff;
-    text-align: center;
-    padding: 10px;
-}
-
-h1 {
-    margin: 0;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-nav ul li a {
-    text-decoration: none;
-    color: #333;
-    font-size: 14px;
-}
-
-
-.content {
-    padding: 20px;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        h1 {
-            margin: 0;
-        }
-        .subtitle {
-            font-size: 18px;
-            font-style: italic;
-        }
-    </style>
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Factors Determining Economic Growth</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Financier+Display:wght@400;700&display=swap');
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Financier Display', serif;
+        }
+
+        header h1 {
+            font-family: 'Financier Display', serif;
+            font-size: 32px;
+        }
+            text-align: center;
+        }
+
+        header {
+            background-color: #0c4eb1; /* Bright blue */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+            color: #fffcfc;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+            border-bottom: 1px solid #000;
+            padding-bottom: 2px; /* Adjust padding to make space for underline */
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #0c4eb1;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .epi-footer {
+            background: #e8e8e8;
+            padding: 25px 0 4em 0;
+            font-family: proxima-nova, "Proxima Nova", sans-serif;
+            color: #666;
+            font-size: 14px;
+            border: 1px solid #ccc;
+}
+
+
+        .width-wrap {
+
+        }
+
+    </style>
 </head>
 <body>
 
 <header>
-   <h1>Economic Growth Factors</h1>
+    <h1>Economic Growth Factors</h1>
     <nav>
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Factors</a></li>
-                    <li><a href="#">Macroeconomic Factors</a></li>
-                    <li><a href="#">Microeconomic Factors</a></li>
-                    <li><a href="#">Policy Influences</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#factors">Factors</a></li>
+            <li><a href="#macro">Macroeconomic Factors</a></li>
+            <li><a href="#micro">Microeconomic Factors</a></li>
+            <li><a href="#policy">Policy Influences</a></li>
         </ul>
     </nav>
 </header>
 
-<section class="content">
+<section id="home" class="content">
     <h2>Introduction</h2>
     <p>INTRODUCTION ABOUT THE MAIN CONTENT ON THE WEBSITE</p>
 </section>
 
-  
-<section class="content">
+<section id="factors" class="content">
     <h2>Introduction</h2>
-    <p>TEXT AND VISUALISATIONS</p>
+    <footer class="epi-footer">
+        <p>TEXT AND VISUALIZATIONS</p>
+        <div class="width-wrap"></div>
+    </footer>    
     
-    <h2>Macroeconomic Factors</h2>
-    <p>TEXT AND VISUALISATIONS</p>
-    
-    <h2>Microeconomic Factors</h2>
-    <p>TEXT AND VISUALISATIONS.</p>
-    
-    <h2>Policy Influences</h2>
-    <p>TEXT AND VISUALISATIONS.</p>
-    
+    <h2 id="macro">Macroeconomic Factors</h2>
+    <footer class="epi-footer">
+        <div class="width-wrap"></div>
+        <p>TEXT AND VISUALIZATIONS</p>
+    </footer>
+
+    <h2 id="micro">Microeconomic Factors</h2>
+    <footer class="epi-footer">
+        <div class="width-wrap"></div>
+        <p>TEXT AND VISUALIZATIONS.</p>
+    </footer>
+        
+    <h2 id="policy">Policy Influences</h2>
+    <footer class="epi-footer">
+        <div class="width-wrap"></div>
+        <p>TEXT AND VISUALIZATIONS.</p>
+    </footer>
+        
     <h2>Conclusion</h2>
-    <p>TEXT AND VISUALISATIONS</p>
+    <footer class="epi-footer">
+        <div class="width-wrap"></div>
+        <p>TEXT AND VISUALIZATIONS</p>
+    </footer>
+        
 </section>
 
 <footer>
@@ -156,5 +144,4 @@ footer {
 </footer>
 
 </body>
-</html>
 </html>
