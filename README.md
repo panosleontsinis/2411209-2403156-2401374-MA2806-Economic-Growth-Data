@@ -28,7 +28,7 @@ Work in progress
 
 
 ## Group member role descriptions
-- Panos - Coding website,visualisations + background research
+- Panos - Coding website + background research
 - Gabija - Background research
 - Muhammad - Coding (creating visualisations)
 
