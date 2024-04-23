@@ -21,7 +21,7 @@ Macroeconomic Factors Determining ​Economic Growth:
 ## Moodboard images
 Layout Design:
 
-![Moodboard Image 1]()
+![Moodboard Image 1](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/Capture.PNG?raw=true)
 
 Similar material researched:
 1.OurWorldInData
