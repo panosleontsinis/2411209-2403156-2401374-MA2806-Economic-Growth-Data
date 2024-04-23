@@ -24,9 +24,9 @@ Layout Design:
 ![Moodboard Image 1]()
 
 Similar material researched:
-1.
+1.OurWorldInData
 
-![Moodboard Image 2]
+![Moodboard Image 2](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/our.JPG?raw=true)
 
 2.Gapminder
 
