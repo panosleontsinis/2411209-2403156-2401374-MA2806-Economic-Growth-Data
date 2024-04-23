@@ -31,7 +31,7 @@ Similar material researched:
 ![Moodboard Image 2](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/raw/main/Capture.PNG)
 
 2. https://www.gapminder.org/data/
-![Moodboard Image 2]((https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/gap.JPG?raw=true))
+![Moodboard Image 2](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/f719b8ff1c46755052fc4a77170ff9644f248130/gap.JPG)
 
 ## Group member role descriptions
 - Panos - Coding website + background research
