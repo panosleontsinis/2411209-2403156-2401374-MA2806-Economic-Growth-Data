@@ -4,7 +4,7 @@
 
 
 ## Theme
-The website is themed around data and statistics regarding economic data. Through different subsections within the website, data visualisations and images the website will compare global economies and give a wider image on economical factors.
+The website is themed around data and statistics regarding economic data. Through different subsections within the website, data visualisations and images the website will compare global economies and give a wider image on economic factors.
  
 Macroeconomic Factors Determining ​Economic Growth:
 - World Development Indicators
@@ -39,5 +39,4 @@ Similar material researched:
 - Muhammad - Coding (creating visualisations)
 
 ## Further development?
-This project can be expanded on a larger scale and can present more diverse economic material for the webpage. Our project might offer a larger platform for statistical and visual data about the world economies if it included more datasets. With further development and resources, 
-this project can be tailoured towards data analysts, providing further statistical data and accessibility of economical data in the form of data visualisations. . Our online website could be partnered along with other data-sharing platforms which could help compare statistical informations about ecomies around the world.
+This project can be expanded on a larger scale and can present more diverse economic material for the webpage. Our project might offer a larger platform for statistical and visual data about the world economies if it included more datasets. With further development and resources, this project can be tailored towards data analysts, providing further statistical data and accessibility of economical data in the form of data visualisations. Our online website could be partnered along with other data-sharing platforms which could help compare statistical information about ecomies around the world.
