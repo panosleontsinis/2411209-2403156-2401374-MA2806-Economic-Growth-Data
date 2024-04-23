@@ -24,6 +24,7 @@ Layout Design:
 ![Moodboard Image 1](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/Capture.PNG?raw=true)
 
 Similar material researched:
+
 1.OurWorldInData
 
 ![Moodboard Image 2](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/our.JPG?raw=true)
