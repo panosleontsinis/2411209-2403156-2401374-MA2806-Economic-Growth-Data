@@ -34,8 +34,10 @@ Similar material researched:
 ![Moodboard Image 3](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/gap.JPG?raw=true)
 
 ## Group Roles:
-Panos- Coding the website
+Panos- Coding Website
+
 Gabi- Text
+
 Hilmi- Data Visualisations
 
 
