@@ -40,4 +40,4 @@ Similar material researched:
 
 ## Further development?
 This project can be expanded on a larger scale and can present more diverse economic material for the webpage. Our project might offer a larger platform for statistical and visual data about the world economies if it included more datasets. With further development and resources, 
-this project can be tailoured towards data analysts . The lauy data-sharing agreements to work with other organizations to compare data.
+this project can be tailoured towards data analysts, providing further statistical data and accessibility of economical data in the form of data visualisations. . Our online website could be partnered along with other data-sharing platforms which could help compare statistical informations about ecomies around the world.
