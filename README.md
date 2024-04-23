@@ -17,6 +17,7 @@ Macroeconomic Factors Determining ​Economic Growth:
 - The World Bank's data portal (https://databank.worldbank.org/source/ida-results-measurement-system,-tier-i-database-%e2%80%93-wdi)
 - Science Direct (https://www.sciencedirect.com/science/article/pii/S2405844021012123?via%3Dihub)
 - Our World In Data (https://ourworldindata.org/economic-growth#research-writing)
+- Gapminder (https://www.gapminder.org/)
 
 ## Moodboard images
 Layout Design:
@@ -35,8 +36,9 @@ Similar material researched:
 
 ## Group Roles:
 Panos- Coding + Design of Website
+Among the responsibilities were establishing the general structure of the website, creating a layout with titles and subheaders for simple navigation, and managing the ReadMe file to present our project.
 
-Gabi- Text
+Gabi- Research + Text
 
 Hilmi- Data Visualisations
 
