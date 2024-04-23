@@ -19,15 +19,17 @@ Macroeconomic Factors Determining ​Economic Growth:
 - Our World In Data (https://ourworldindata.org/economic-growth#research-writing)
 
 ## Moodboard images
-
 Layout Design:
+
 ![Moodboard Image 1](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/draft.PNG?raw=true)
 
 Similar material researched:
 1.
+
 ![Moodboard Image 2]
 
 2.
+
 ![Moodboard Image 3]
 
 ## Further development?
