@@ -33,5 +33,11 @@ Similar material researched:
 
 ![Moodboard Image 3](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/gap.JPG?raw=true)
 
+## Group Roles:
+Panos- Coding the website
+Gabi- Text
+Hilmi- Data Visualisations
+
+
 ## Further development?
 This project can be expanded on a larger scale and can present more diverse economic material for the webpage. Our project might offer a larger platform for statistical and visual data visualisations about the world economies if it included more datasets and heavier researched material. This project can be tailored towards data analysts who may be keen to research economic data. With further resources and time, our project can be collaborated with other data-sharing firms and could partner to gather data on a wider volume as a means of comparison and market analysis.
