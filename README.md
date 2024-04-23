@@ -1,4 +1,4 @@
-# Project: Factors Determining ​Economic Growth for UK 
+# Project: Factors Influencing Economic Growth in the UK
 
 ## Screenshot of the Project
 
