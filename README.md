@@ -4,7 +4,7 @@
 
 
 ## Theme
-The website is themed around data and statistics regarding economic data. Through different subsections within the website, data visualisations and images the website will compare global economies and give a wider image on economical factors.
+The website is themed around data and statistics regarding economic data. Through different subsections within the website, data visualisations and images the website will compare global economies and give a wider image on economic factors.
  
 Macroeconomic Factors Determining ​Economic Growth:
 - World Development Indicators
@@ -20,11 +20,15 @@ Macroeconomic Factors Determining ​Economic Growth:
 
 ## Moodboard images
 
-Work in progress
-(3-5 colour palettes, pixel art styles, images from videogames/films etc).
-
+Layout Design:
 ![Moodboard Image 1](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/draft.PNG?raw=true)
-![Moodboard Image 2](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/raw/main/Capture.PNG)
+
+Similar material researched:
+1.
+![Moodboard Image 2]
+
+2.
+![Moodboard Image 3]
 
 ## Further development?
-This project can be expanded on a larger scale and can present more diverse economic material for the webpage. Our project might offer a larger platform for statistical and visual data about the world economies if it included more datasets. This program might only be designed for data analysts working on statistical studies. This initiative can use partnerships and data-sharing agreements to work with other organizations to compare data.
+This project can be expanded on a larger scale and can present more diverse economic material for the webpage. Our project might offer a larger platform for statistical and visual data visualisations about the world economies if it included more datasets and heavier researched material. This project can be taloured towards data analysts that may be keen to reasearch on ecomical data. With further resources and time, our project can be collaborated with other data-sharing firms and could partner to gather data on a wider volume as means of comparison and market analysis.
