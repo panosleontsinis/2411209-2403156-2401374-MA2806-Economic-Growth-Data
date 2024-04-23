@@ -21,16 +21,16 @@ Macroeconomic Factors Determining ​Economic Growth:
 ## Moodboard images
 Layout Design:
 
-![Moodboard Image 1](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/draft.PNG?raw=true)
+![Moodboard Image 1]()
 
 Similar material researched:
 1.
 
 ![Moodboard Image 2]
 
-2.
+2.Gapminder
 
-![Moodboard Image 3]
+![Moodboard Image 3](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/gap.JPG?raw=true)
 
 ## Further development?
 This project can be expanded on a larger scale and can present more diverse economic material for the webpage. Our project might offer a larger platform for statistical and visual data visualisations about the world economies if it included more datasets and heavier researched material. This project can be taloured towards data analysts that may be keen to reasearch on ecomical data. With further resources and time, our project can be collaborated with other data-sharing firms and could partner to gather data on a wider volume as means of comparison and market analysis.
