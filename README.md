@@ -23,9 +23,15 @@ Macroeconomic Factors Determining ​Economic Growth:
 Work in progress
 (3-5 colour palettes, pixel art styles, images from videogames/films etc).
 
-![Moodboard Image 1](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/draft.PNG?raw=true)
+Layout design:
 ![Moodboard Image 2](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/raw/main/Capture.PNG)
 
+Similar material researched:
+1. https://ourworldindata.org/
+![Moodboard Image 2](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/raw/main/Capture.PNG)
+
+2. https://www.gapminder.org/data/
+![Moodboard Image 2](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/raw/main/Capture.PNG)
 
 ## Group member role descriptions
 - Panos - Coding website + background research
