@@ -41,12 +41,11 @@ Similar material researched:
 ## Group Roles:
 Panos- Coding, Creating Visualisations + Design of Website
 
- Amongst the responsibilities was establishing the general structure of the website, creating the visualisations, titles and subheaders for simple navigation, and managing the ReadMe file to present our project. Responsible for integrating content shared by fellow group members.
+ Amongst the responsibilities was establishing the general structure of the website, adding data visualisation , titles and subheaders for simple navigation, and managing the ReadMe file to present our project. Responsible for integrating content shared by fellow group members.
  
 Gabi- Research + Text
 
-Hilmi- Research
-
+Hilmi- Visualisations
 
 ## Further development?
 This project can be expanded on a larger scale and can present more diverse economic material for the webpage. Our project might offer a larger platform for statistical and visual data visualisations about the world economies if it included more datasets and heavier researched material. This project can be tailored towards data analysts who may be keen to research economic data. With further resources and time, our project can be collaborated with other data-sharing firms and could partner to gather data on a wider volume as a means of comparison and market analysis. 
