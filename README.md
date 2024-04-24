@@ -39,13 +39,13 @@ Similar material researched:
 ![Moodboard Image 3](https://github.com/panosleontsinis/MA2806-Economic-Growth-2411209-2403156-2401374/blob/main/gap.JPG?raw=true)
 
 ## Group Roles:
-Panos- Coding + Design of Website
+Panos- Coding, Creating Visualisations + Design of Website
 
- Amongst the responsibilities was establishing the general structure of the website, creating a layout with titles and subheaders for simple navigation, and managing the ReadMe file to present our project. Responsible for integrating content shared by fellow group members.
+ Amongst the responsibilities was establishing the general structure of the website, creating the visualisations, titles and subheaders for simple navigation, and managing the ReadMe file to present our project. Responsible for integrating content shared by fellow group members.
  
 Gabi- Research + Text
 
-Hilmi- Data Visualisations
+Hilmi- Research
 
 
 ## Further development?
