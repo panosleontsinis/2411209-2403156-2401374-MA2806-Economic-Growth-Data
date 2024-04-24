@@ -1,7 +1,7 @@
 # Economic Growth Data Website
 
 ## Screenshot of the Project
-
+![Moodboard Image 3]()
 
 ## Theme
 The website is themed around data and statistics regarding economic data. Through different subsections within the website, data visualisations and images the website will compare global economies and give a wider image on economic factors.
