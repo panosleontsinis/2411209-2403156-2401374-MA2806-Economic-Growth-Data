@@ -1,23 +1,31 @@
 
-const labels = Utils.months({count: 7});
-const data = {
-  labels: labels,
-  datasets: [{
-    label: 'My First Ddtaset',
-    data: [65, 59, 80, 81, 56, 55, 40],
-    fill: false,
-    borderColor: 'rgb(75, 192, 192)',
-    tension: 0.1
-  }]
+var ctx = document.getElementById('myChart').getContext('2d');
+
+
+var data = {
+    labels: ['United States', 'China', 'Japan', 'Brazil', 'France', 'India'],
+    datasets: [{
+        label: 'Inflation rate Amongst Global Economies',
+        backgroundColor: 'rgba(255, 99, 132, 0.2)', // Red
+        borderColor: 'rgba(255, 99, 132, 1)',
+        borderWidth: 1,
+        data: [2.8, 1, 2.2, 4.1, 2.4, 4.6]
+    }]
 };
-const labels = Utils.months({count: 7});
-const data = {
-  labels: labels,
-  datasets: [{
-    label: 'My First Ddtaset',
-    data: [65, 59, 80, 81, 56, 55, 40],
-    fill: false,
-    borderColor: 'rgb(75, 192, 192)',
-    tension: 0.1
-  }]
+
+var options = {
+    scales: {
+        yAxes: [{
+            ticks: {
+                beginAtZero: true
+            }
+        }]
+    }
 };
+
+
+var myChart = new Chart(ctx, {
+    type: 'line',
+    data: data,
+    options: options
+});
