@@ -1,19 +1,19 @@
-// Define the data for the macroeconomic factors
-const macroeconomicData = {
-    labels: ['Inflation Rates', 'Gross Domestic Product (GDP)', 'Unemployment Rates', 'Interest Rates', 'Government Fiscal Policy', 'Monetary Policy', 'Exchange Rates', 'Balance of Trade', 'Consumer Confidence'],
+// Define the data for economic growth factors
+const economicGrowthData = {
+    labels: ['Investment in Capital', 'Technological Innovation', 'Human Capital Development', 'Infrastructure Development', 'Trade Expansion', 'Entrepreneurship', 'Productivity Growth', 'Research and Development', 'Income Equality'],
     datasets: [{
-        label: 'Importance of Macroeconomic Factors',
-        data: [8, 10, 9, 7, 6, 7, 6, 5, 8], // Example data (scale from 1 to 10)
-        backgroundColor: 'rgba(54, 162, 235, 0.2)',
-        borderColor: 'rgba(54, 162, 235, 1)',
+        label: 'Importance of Economic Growth Factors',
+        data: [8, 9, 8, 7, 6, 7, 8, 9, 7], // Example data (scale from 1 to 10)
+        backgroundColor: 'rgba(255, 99, 132, 0.2)',
+        borderColor: 'rgba(255, 99, 132, 1)',
         borderWidth: 1
     }]
 };
 
-// Define the chart configuration
-const chartConfig = {
+// Define the chart configuration for economic growth
+const economicGrowthConfig = {
     type: 'bar',
-    data: macroeconomicData,
+    data: economicGrowthData,
     options: {
         scales: {
             y: {
@@ -26,7 +26,7 @@ const chartConfig = {
             x: {
                 title: {
                     display: true,
-                    text: 'Macroeconomic Factors'
+                    text: 'Economic Growth Factors'
                 }
             }
         }
@@ -36,8 +36,8 @@ const chartConfig = {
 // Wait for the DOM to be fully loaded before accessing elements
 document.addEventListener('DOMContentLoaded', function () {
     // Get the canvas element
-    const ctx = document.getElementById('macroeconomicChart');
+    const ctx = document.getElementById('economicGrowthChart');
 
-    // Create the chart
-    new Chart(ctx, chartConfig);
+    // Create the chart for economic growth
+    new Chart(ctx, economicGrowthConfig);
 });
