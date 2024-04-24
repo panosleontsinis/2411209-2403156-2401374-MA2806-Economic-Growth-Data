@@ -148,15 +148,12 @@
     
 }
         canvas {
-    max-width: 100%; /* Ensure the canvas does not exceed the container width */
     margin-bottom: 20px; /* Add space between charts */
     margin: 0 auto;
     display: block;
     border: 1px solid #ccc;
 }
         #chart-container {
-            width: 400px;
-            height: 300px;
             margin: 20px auto;
             border: 1px solid #ccc;
             padding: 10px;
@@ -206,18 +203,20 @@
 </section>
 
 <section id="2" class="content">
-    <h2>Macroeconomic factors</h2>
+   <h2>Macroeconomic factors</h2>
     <footer class="epi-footer">
-    <div class="chart-container">
-
+        <div class="chart-container">
+            <canvas id="myChart" width="800" height="600"></canvas>
+</div>
+    </footer>
+</section>
 
     
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.jsdelivr.net/npm/script1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/script1.js"/script>
         <script src="script1.js"></script>
         <div class="chart-container">
-        <canvas id="myChart" width="800" height="600"></canvas>
 </head>
     </div>
 
