@@ -1,64 +1,44 @@
-// Import Chart.js library
-import Chart from 'chart.js/auto';
-
-// Data for modern world economies GDP
-const modernWorldGDPData = {
-    labels: ['USA', 'China', 'Japan', 'Germany', 'India', 'UK', 'France', 'Brazil', 'Italy', 'Canada'],
+// Define the data for the macroeconomic factors
+const macroeconomicData = {
+    labels: ['Inflation Rates', 'Gross Domestic Product (GDP)', 'Unemployment Rates', 'Interest Rates', 'Government Fiscal Policy', 'Monetary Policy', 'Exchange Rates', 'Balance of Trade', 'Consumer Confidence'],
     datasets: [{
-        label: 'GDP (trillion USD)',
-        data: [21.43, 14.34, 5.15, 4.42, 3.27, 2.83, 2.78, 2.72, 2.07, 1.97], // GDP data in trillion USD
-        backgroundColor: [
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)',
-            'rgba(153, 102, 255, 0.2)',
-            'rgba(255, 159, 64, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)'
-        ],
-        borderColor: [
-            'rgba(255, 99, 132, 1)',
-            'rgba(54, 162, 235, 1)',
-            'rgba(255, 206, 86, 1)',
-            'rgba(75, 192, 192, 1)',
-            'rgba(153, 102, 255, 1)',
-            'rgba(255, 159, 64, 1)',
-            'rgba(54, 162, 235, 1)',
-            'rgba(255, 99, 132, 1)',
-            'rgba(255, 206, 86, 1)',
-            'rgba(75, 192, 192, 1)'
-        ],
+        label: 'Importance of Macroeconomic Factors',
+        data: [8, 10, 9, 7, 6, 7, 6, 5, 8], // Example data (scale from 1 to 10)
+        backgroundColor: 'rgba(54, 162, 235, 0.2)',
+        borderColor: 'rgba(54, 162, 235, 1)',
         borderWidth: 1
     }]
 };
 
+// Define the chart configuration
 const chartConfig = {
     type: 'bar',
-    data: modernWorldGDPData,
+    data: macroeconomicData,
     options: {
         scales: {
             y: {
                 beginAtZero: true,
                 title: {
                     display: true,
-                    text: 'GDP (trillion USD)'
+                    text: 'Importance (Scale: 1-10)'
                 }
             },
             x: {
                 title: {
                     display: true,
-                    text: 'Countries'
+                    text: 'Macroeconomic Factors'
                 }
             }
         }
     }
 };
 
-// Wait for the DOM to be fully loaded before trying to access elements
+// Wait for the DOM to be fully loaded before accessing elements
 document.addEventListener('DOMContentLoaded', function () {
-    const ctx = document.getElementById('modernWorldGDPChart');
-    const modernWorldGDPChart = new Chart(ctx, chartConfig);
+    // Get the canvas element
+    const ctx = document.getElementById('macroeconomicChart');
+
+    // Create the chart
+    new Chart(ctx, chartConfig);
 });
+
