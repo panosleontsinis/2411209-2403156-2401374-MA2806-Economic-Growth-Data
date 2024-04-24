@@ -1,42 +1,38 @@
-// chart.js
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Policy Influences</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Economic Growth Data</h1>
+        <nav>
+            <ul>
+                <li><a href="#1">Introduction</a></li>
+                <li><a href="#2">Macroeconomic Factors</a></li>
+                <li><a href="#3">Key Macroeconomic Factors</a></li>
+                <li><a href="#4">Microeconomic Factors</a></li>
+                <li><a href="#5">Key Microeconomic Factors</a></li>
+                <li><a href="#6">Policy Influences</a></li>
+            </ul>
+        </nav>
+    </header>
 
-// Sample data for the chart
-const macroChartData = {
-    labels: ['GDP', 'Unemployment', 'Inflation', 'Interest Rates'],
-    datasets: [{
-        label: 'Key Macroeconomic Factors',
-        data: [85, 70, 60, 75],
-        backgroundColor: [
-            'rgba(255, 99, 132, 0.2)',
-            'rgba(54, 162, 235, 0.2)',
-            'rgba(255, 206, 86, 0.2)',
-            'rgba(75, 192, 192, 0.2)'
-        ],
-        borderColor: [
-            'rgba(255, 99, 132, 1)',
-            'rgba(54, 162, 235, 1)',
-            'rgba(255, 206, 86, 1)',
-            'rgba(75, 192, 192, 1)'
-        ],
-        borderWidth: 1
-    }]
-};
+    <section id="6" class="content">
+        <h2>Policy Influences</h2>
+        <div class="visualization-container">        
+            <canvas id="policyChart"></canvas>
+        </div>
+    </section>
 
-// Configuration options for the chart
-const macroChartOptions = {
-    scales: {
-        y: {
-            beginAtZero: true
-        }
-    }
-};
+    <footer>
+        <!-- Footer Content -->
+    </footer>
 
-// Get the canvas element
-const macroChartCanvas = document.getElementById('macroChart');
-
-// Create the chart
-const macroChart = new Chart(macroChartCanvas, {
-    type: 'bar',
-    data: macroChartData,
-    options: macroChartOptions
-});
+    <script src="script2.js"></script>
+</body>
+</html>
