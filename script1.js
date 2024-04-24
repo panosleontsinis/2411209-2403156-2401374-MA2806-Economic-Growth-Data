@@ -35,7 +35,6 @@ const modernWorldGDPData = {
     }]
 };
 
-
 const chartConfig = {
     type: 'bar',
     data: modernWorldGDPData,
@@ -58,6 +57,8 @@ const chartConfig = {
     }
 };
 
-
-const ctx = document.getElementById('modernWorldGDPChart');
-const modernWorldGDPChart = new Chart(ctx, chartConfig);
+// Wait for the DOM to be fully loaded before trying to access elements
+document.addEventListener('DOMContentLoaded', function () {
+    const ctx = document.getElementById('modernWorldGDPChart');
+    const modernWorldGDPChart = new Chart(ctx, chartConfig);
+});
