@@ -36,7 +36,8 @@ Similar material researched:
 
 ## Group Roles:
 Panos- Coding + Design of Website
-Among the responsibilities were establishing the general structure of the website, creating a layout with titles and subheaders for simple navigation, and managing the ReadMe file to present our project.
+
+ Among the responsibilities were establishing the general structure of the website, creating a layout with titles and subheaders for simple navigation, and managing the ReadMe file to present our project.
 
 Gabi- Research + Text
 
