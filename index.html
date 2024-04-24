@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Economic Growth Data</title>
@@ -30,7 +31,7 @@
            
         }
         
-        footer p1 {
+        footer p {
         font-weight: bold;
         }
 
@@ -111,12 +112,28 @@
         .width-wrap {
             font-family: 'Montserrat', sans-serif;
         }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #chart-container {
+            text-align: center;
+        }
+        #chart {
+            width: 100%;
+            height: 400px;
+        }
     </style>
 </head>
     
 <body>
 <header>
-    <h1>Economic Growth Factors</h1>
+    <h1>Economic Growth Data</h1>
     <nav>
         <ul>
             <li><a href="#1">Introduction</a></li>
@@ -152,7 +169,7 @@
         Through insightful analysis and engaging visualisations, this website aims to shed light on the
         complex interplay of these economic growth factors. Whether you're a student, an academic
         researcher, a policymaker, or simply a curious individual seeking to understand the forces driving
-        economic prosperity we invite you to explore our content and embark margin-bottom: 20pxon a journey of discovery.</p>
+        economic prosperity we invite you to explore our content and embark a journey of discovery.</p>
 </section>
 
 <section id="2" class="content">
@@ -200,7 +217,7 @@
 
             <p><strong>Consumer Confidence</strong> - overall consumer optimism about the state of the economy and personal
                 financial situation.</p>
-                
+
             <div class="width-wrap"></div>
         </footer>    
     
@@ -219,6 +236,7 @@
         <h2 id="5">Key Microeconomic Factors</h2>
         <footer class="epi-footer">
             <div class="width-wrap"></div>
+
             <p><strong>Risk and Uncertainty</strong> - Businesses constantly face uncertainties and risks such as market volatility
                 that affect their behaviour and decision-making processes.</p>
 
@@ -250,6 +268,13 @@
         <h2 id="6">Policy Influences</h2>
         <footer class="epi-footer">
             <div class="width-wrap"></div>
+            <div class="container">
+                <h1>Economic Data Visualization</h1>
+                <div id="chart-container">
+                    <canvas id="chart"></canvas>
+                    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+                </div>
+            </div>
             <p>Government policies play a pivotal role in shaping the economic landscape and influencing the
                 trajectory of economic growth.Using fiscal and monetary measures, regulatory frameworks, and trade
                 agreements, governments can either stimulate economic activity and foster a conducive environment
@@ -277,7 +302,7 @@
     </section>
 
     <footer>
-        <p1>References sourced:</p1>
+        <p>References sourced:</p>
 
         <p>
             - <strong><a href="https://doi.org/10.1515/jeb-2016-0009">Chirwa, T.G. and Odhiambo, N.M. (2016).</a></strong> Macroeconomic Determinants of Economic
@@ -286,40 +311,30 @@
         </p>
 
         <p>
-            - <strong><a href="https://ec.europa.eu/eurostat/databrowser/view/une_rt_a/default/table?lang=en">Europa.eu. (2022).</a></strong> Unemployment By Sex and Age. [online] Available at:
-            https://ec.europa.eu/eurostat/databrowser/view/une_rt_a/default/table?lang=en.
+            - <strong><a href="https://ec.europa.eu/eurostat/databrowser/view/une_rt_a/default/table?lang=en">Europa.eu. (2022).</a></strong> Unemployment By Sex and Age.
         </p>
 
         <p>
-            - <strong><a href="https://ec.europa.eu/eurostat/databrowser/view/tps00203/settings_1/table?lang=en">Europa.eu. (2024).</a></strong> Available at:
-            https://ec.europa.eu/eurostat/databrowser/view/tps00203/settings_1/table?lang=en [Accessed
-            23 Apr. 2024].
+            - <strong><a href="https://ec.europa.eu/eurostat/databrowser/view/tps00203/settings_1/table?lang=en">Europa.eu. (2024).</a></strong>
         </p>
 
         <p>
-            - <strong><a href="https://www.imf.org/en/Data">IMF (2022).</a></strong> IMF Data. [online] IMF. Available at: https://www.imf.org/en/Data
+            - <strong><a href="https://www.imf.org/en/Data">IMF (2022).</a></strong> IMF Data. [online] IMF.
         </p>
 
         <p>
-            - <strong><a href="https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Micro-and-Macro">Rodrigo, G.C. (2022).</a></strong> Micro and Macro: The Economic Divide. [online] IMF. Available at:
-            https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Micro-and-Macro.
+            - <strong><a href="https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Micro-and-Macro">Rodrigo, G.C. (2022).</a></strong> Micro and Macro: The Economic Divide.
         </p>
 
         <p>
-            - <strong><a href="https://www.worldbank.org/en/topic/macroeconomics#:~:text=Macroeconomics%20focuses%20on%20the%20performance">World Bank. (n.d.).</a></strong> Macroeconomics. [online] Available at:
-            https://www.worldbank.org/en/topic/macroeconomics#:~:text=Macroeconomics%20focuses%
-            20on%20the%20performance.
+            - <strong><a href="https://www.worldbank.org/en/topic/macroeconomics#:~:text=Macroeconomics%20focuses%20on%20the%20performance">World Bank. (n.d.).</a></strong> Macroeconomics.
         </p>
 
         <p>
-            - <strong><a href="https://www.ons.gov.uk/search?q=uk+unemployment+rates+">www.ons.gov.uk. (n.d.).</a></strong> Search - Office for National Statistics. [online] Available at:
-            https://www.ons.gov.uk/search?q=uk+unemployment+rates+ [Accessed 23 Apr. 2024].
+            - <strong><a href="https://www.ons.gov.uk/search?q=uk+unemployment+rates+">www.ons.gov.uk. (n.d.).</a></strong> Search - Office for National Statistics [Accessed 23 Apr. 2024].
         </p>
 
     </footer>
-</body>
-</html>
-
 </body>
 </html>
 
