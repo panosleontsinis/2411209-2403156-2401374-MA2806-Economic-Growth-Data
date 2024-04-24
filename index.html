@@ -193,7 +193,8 @@
     <h2>Macroeconomic factors</h2>
     <footer class="epi-footer">
     <div class="chart-container">
-        <canvas id="myChart" width="400" height="400"></canvas>     
+    <canvas id="macroChart"></canvas>
+    
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title Here</title>
@@ -225,6 +226,7 @@
 <section id="3" class="content">
     <h2>Key Macroeconomic factors</h2>
     <footer class="epi-footer">
+
         <p><strong>Inflation Rates</strong> - average price increase in goods and services over a period, reflecting the decreasing
             purchasing power of a currency</p>
 
@@ -258,8 +260,10 @@
 <section id="4" class="content">
     <h2>Microeconomic factors</h2>
     <footer class="epi-footer">
-
-        <div class="visualization-container">        
+<div class="chart-container">
+            <canvas id="microChart"></canvas>
+        </div>
+        
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Title Here</title>
@@ -325,7 +329,10 @@
 <section id="6" class="content">
     <h2>Policy Influences</h2>
     <footer class="epi-footer">
-        <div class="visualization-container">        
+              <div class="chart-container">
+            <canvas id="policyChart"></canvas>
+        </div>
+
 <head>
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -356,6 +363,7 @@
             domestic companies, reduce tariffs and trade barriers, and increase export opportunities, all of which
             contribute to economic growth.
             </p>
+        <script src="chart.js"></script>
         <div class="width-wrap"></div>
     </footer>
 </section>
