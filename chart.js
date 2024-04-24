@@ -9,7 +9,7 @@ var data = {
         backgroundColor: 'rgba(255, 99, 132, 0.2)', // Red
         borderColor: 'rgba(255, 99, 132, 1)',
         borderWidth: 1,
-        data: [2.8 , 1, 2.2, 4.1, 2.4, 4.6]
+        data: [ 2.8, 1, 2.2, 4.1, 2.4, 4.6]
     }]
 };
 
