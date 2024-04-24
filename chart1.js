@@ -1,39 +1,33 @@
-<script>
-        const years = ['2015', '2016', '2017', '2018', '2019', '2020'];
-        const GDP = [2.5, 2.7, 3.0, 3.2, 3.5, 3.8]; // Sample GDP growth rates
 
-        const ctx = document.getElementById('economicGraph').getContext('2d');
+const data = {
+    labels: ['United States', 'China', 'Japan', 'Brazil', 'France', 'India'],
+    datasets: [{
+        label: 'Inflation rate Amongst Global Economies',
+        backgroundColor: 'rgba(255, 99, 132, 0.2)', // Red
+        borderColor: 'rgba(255, 99, 132, 1)',
+        borderWidth: 1,
+        data: [2.8, 1, 2.2, 4.1, 2.4, 4.6]
+    }]
+};
 
-        const economicGraph = new Chart(ctx, {
-            type: 'line',
-            data: {
-                labels: years,
-                datasets: [{
-                    label: 'GDP Growth Rate',
-                    data: GDP,
-                    borderColor: 'rgba(75, 192, 192, 1)', // Teal color
-                    borderWidth: 2,
-                    fill: false
-                }]
-            },
-            options: {
-                scales: {
-                    yAxes: [{
-                        scaleLabel: {
-                            display: true,
-                            labelString: 'GDP Growth Rate (%)'
-                        },
-                        ticks: {
-                            beginAtZero: true
-                        }
-                    }],
-                    xAxes: [{
-                        scaleLabel: {
-                            display: true,
-                            labelString: 'Year'
-                        }
-                    }]
-                }
+
+const options = {
+    scales: {
+        yAxes: [{
+            ticks: {
+                beginAtZero: true
             }
-        });
-    </script>
+        }]
+    }
+};
+
+
+const ctx = document.getElementById('myChart').getContext('2d');
+
+
+const myChart = new Chart(ctx, {
+    type: 'line',
+    data: data,
+    options: options
+});
+
