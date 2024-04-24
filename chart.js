@@ -1,36 +1,56 @@
-// Define the data for the chart
-const chartData = {
-    labels: ['January', 'February', 'March', 'April', 'May'],
-    datasets: [{
-        label: 'Sample Data',
-        data: [10, 20, 30, 40, 50],
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Macroeconomic Indicators Importance</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    canvas {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="macroImportanceChart"></canvas>
+
+  <script>
+    // Data for macroeconomic indicators importance
+    const data = {
+      labels: ['GDP Growth', 'Unemployment Rate', 'Inflation Rate', 'Interest Rates', 'Government Fiscal Policy', 'Monetary Policy'],
+      datasets: [{
+        label: 'Importance',
         backgroundColor: 'rgba(54, 162, 235, 0.2)',
         borderColor: 'rgba(54, 162, 235, 1)',
-        borderWidth: 1
-    }]
-};
+        borderWidth: 2,
+        pointBackgroundColor: 'rgba(54, 162, 235, 1)',
+        pointBorderColor: '#fff',
+        pointHoverBackgroundColor: '#fff',
+        pointHoverBorderColor: 'rgba(54, 162, 235, 1)',
+        data: [8, 7, 6, 7, 8, 9] // Importance rating out of 10 for each indicator
+      }]
+    };
 
-// Define the chart configuration
-const chartConfig = {
-    type: 'bar',
-    data: chartData,
-    options: {
-        scales: {
-            y: {
-                beginAtZero: true
-            }
+    // Configuration options
+    const options = {
+      scale: {
+        ticks: {
+          beginAtZero: true,
+          min: 0,
+          max: 10,
+          stepSize: 2
         }
-    }
-};
+      }
+    };
 
-// Function to create the chart
-function createChart() {
-    // Get the canvas element
-    const ctx = document.getElementById('myChart');
-
-    // Create the chart
-    new Chart(ctx, chartConfig);
-}
-
-// Call the function to create the chart
-createChart();
+    // Create radar chart
+    const ctx = document.getElementById('macroImportanceChart').getContext('2d');
+    const macroImportanceChart = new Chart(ctx, {
+      type: 'radar',
+      data: data,
+      options: options
+    });
+  </script>
+</body>
+</html>
