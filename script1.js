@@ -41,4 +41,3 @@ document.addEventListener('DOMContentLoaded', function () {
     // Create the chart
     new Chart(ctx, chartConfig);
 });
-
