@@ -1,50 +1,49 @@
-// Function to fetch data from the World Bank API
-async function fetchData() {
-    const url = 'https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD?format=json';
-    
-    try {
-        const response = await fetch(url);
-        const data = await response.json();
-        return data[1]; // The actual data is in the second element of the array
-    } catch (error) {
-        console.error('Error fetching data:', error);
-        return null;
-    }
-}
+// JavaScript code for data visualization of Consumer Price Index (CPI)
 
-// Function to process and visualize the fetched data
-async function visualizeData() {
-    const data = await fetchData();
-    if (!data) return;
-
-    // Extracting necessary information from the data
-    const countries = data.map(entry => entry.country.value);
-    const gdpValues = data.map(entry => entry.value);
-
-    // Creating a chart using Chart.js library
-    const ctx = document.getElementById('chart').getContext('2d');
-    const chart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: countries,
-            datasets: [{
-                label: 'GDP (in current US$)',
-                data: gdpValues,
-                backgroundColor: 'rgba(54, 162, 235, 0.5)',
-                borderColor: 'rgba(54, 162, 235, 1)',
-                borderWidth: 1
-            }]
-        },
-        options: {
-            scales: {
-                y: {
-                    beginAtZero: true
-                }
-            }
+// Sample data for CPI over time
+const cpiData = [
+    { year: 2010, cpi: 100 },
+    { year: 2011, cpi: 102 },
+    { year: 2012, cpi: 105 },
+    { year: 2013, cpi: 108 },
+    { year: 2014, cpi: 110 },
+    { year: 2015, cpi: 112 },
+    { year: 2016, cpi: 115 },
+    { year: 2017, cpi: 118 },
+    { year: 2018, cpi: 120 },
+    { year: 2019, cpi: 123 },
+    { year: 2020, cpi: 126 },
+    { year: 2021, cpi: 130 }
+  ];
+  
+  // Function to draw the CPI chart
+  function drawCPIChart(data) {
+    // Code to visualize the CPI data using a charting library like Chart.js or D3.js
+    // Example:
+    // Create a line chart showing CPI over time
+    const ctx = document.getElementById('cpiChart').getContext('2d');
+    const cpiChart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: data.map(item => item.year),
+        datasets: [{
+          label: 'Consumer Price Index (CPI)',
+          data: data.map(item => item.cpi),
+          backgroundColor: 'rgba(54, 162, 235, 0.2)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
         }
+      }
     });
-}
-
-// Call the visualizeData function to initiate data fetching and visualization
-visualizeData();
-
+  }
+  
+  // Call the function to draw the CPI chart
+  drawCPIChart(cpiData);
+  
