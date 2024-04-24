@@ -1,38 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Policy Influences</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Economic Growth Data</h1>
-        <nav>
-            <ul>
-                <li><a href="#1">Introduction</a></li>
-                <li><a href="#2">Macroeconomic Factors</a></li>
-                <li><a href="#3">Key Macroeconomic Factors</a></li>
-                <li><a href="#4">Microeconomic Factors</a></li>
-                <li><a href="#5">Key Microeconomic Factors</a></li>
-                <li><a href="#6">Policy Influences</a></li>
-            </ul>
-        </nav>
-    </header>
+// Get the context of the canvas element
+var ctx = document.getElementById('myChart').getContext('2d');
 
-    <section id="6" class="content">
-        <h2>Policy Influences</h2>
-        <div class="visualization-container">        
-            <canvas id="policyChart"></canvas>
-        </div>
-    </section>
+// Define the data for the chart
+var data = {
+    labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+    datasets: [{
+        label: 'Revenue',
+        backgroundColor: 'rgba(255, 99, 132, 0.2)', // Red
+        borderColor: 'rgba(255, 99, 132, 1)',
+        borderWidth: 1,
+        data: [2000, 2500, 1800, 3000, 2200, 3500]
+    }]
+};
 
-    <footer>
-        <!-- Footer Content -->
-    </footer>
+// Define the options for the chart
+var options = {
+    scales: {
+        yAxes: [{
+            ticks: {
+                beginAtZero: true
+            }
+        }]
+    }
+};
 
-    <script src="script2.js"></script>
-</body>
-</html>
+// Create the bar chart
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: data,
+    options: options
+});
