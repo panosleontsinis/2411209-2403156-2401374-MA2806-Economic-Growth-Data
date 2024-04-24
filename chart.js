@@ -3,17 +3,17 @@ var ctx = document.getElementById('myChart').getContext('2d');
 
 // Define the data for the chart
 var data = {
-    labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+    labels: ['United States', 'China', 'Japan', 'Brazil', 'France', 'India'],
     datasets: [{
-        label: 'Revenue',
+        label: 'Inflation rate Amongst Global Economies',
         backgroundColor: 'rgba(255, 99, 132, 0.2)', // Red
         borderColor: 'rgba(255, 99, 132, 1)',
         borderWidth: 1,
-        data: [2000, 2500, 1800, 3000, 2200, 3500]
+        data: [2.8 , 1, 2.2, 4.1, 2.4, 4.6]
     }]
 };
 
-// Define the options for the chart
+
 var options = {
     scales: {
         yAxes: [{
