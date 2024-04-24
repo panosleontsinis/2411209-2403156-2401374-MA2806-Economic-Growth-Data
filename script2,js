@@ -1,2 +1,46 @@
+<script>
+        // Sample data for policy influences
+        const policyData = {
+            labels: ['Fiscal Policy', 'Monetary Policy', 'Regulatory Policies', 'Trade Agreements'],
+            datasets: [{
+                data: [30, 25, 20, 25], // Example data values
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.5)',
+                    'rgba(54, 162, 235, 0.5)',
+                    'rgba(255, 206, 86, 0.5)',
+                    'rgba(75, 192, 192, 0.5)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)'
+                ],
+                borderWidth: 1
+            }]
+        };
 
+        // Chart configuration
+        const chartConfig = {
+            type: 'pie',
+            data: policyData,
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'Distribution of Policy Influences'
+                    },
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }
+        };
+
+        // Create the chart
+        const ctx = document.getElementById('policyChart').getContext('2d');
+        const policyChart = new Chart(ctx, chartConfig);
+    </script>
 
