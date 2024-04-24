@@ -1,7 +1,4 @@
-// Get the context of the canvas element
 var ctx = document.getElementById('myChart').getContext('2d');
-
-// Define the data for the chart
 var data = {
     labels: ['United States', 'China', 'Japan', 'Brazil', 'France', 'India'],
     datasets: [{
@@ -24,7 +21,7 @@ var options = {
     }
 };
 
-// Create the bar chart
+
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: data,
