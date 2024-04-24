@@ -1,9 +1,9 @@
-// Define the data for the macroeconomic factors
-const macroeconomicData = {
-    labels: ['Inflation Rates', 'Gross Domestic Product (GDP)', 'Unemployment Rates', 'Interest Rates', 'Government Fiscal Policy', 'Monetary Policy', 'Exchange Rates', 'Balance of Trade', 'Consumer Confidence'],
+// Define the data for the chart
+const chartData = {
+    labels: ['January', 'February', 'March', 'April', 'May'],
     datasets: [{
-        label: 'Importance of Macroeconomic Factors',
-        data: [8, 10, 9, 7, 6, 7, 6, 5, 8], // Example data (scale from 1 to 10)
+        label: 'Sample Data',
+        data: [10, 20, 30, 40, 50],
         backgroundColor: 'rgba(54, 162, 235, 0.2)',
         borderColor: 'rgba(54, 162, 235, 1)',
         borderWidth: 1
@@ -13,31 +13,24 @@ const macroeconomicData = {
 // Define the chart configuration
 const chartConfig = {
     type: 'bar',
-    data: macroeconomicData,
+    data: chartData,
     options: {
         scales: {
             y: {
-                beginAtZero: true,
-                title: {
-                    display: true,
-                    text: 'Importance (Scale: 1-10)'
-                }
-            },
-            x: {
-                title: {
-                    display: true,
-                    text: 'Macroeconomic Factors'
-                }
+                beginAtZero: true
             }
         }
     }
 };
 
-// Wait for the DOM to be fully loaded before accessing elements
-document.addEventListener('DOMContentLoaded', function () {
+// Function to create the chart
+function createChart() {
     // Get the canvas element
-    const ctx = document.getElementById('macroeconomicChart');
+    const ctx = document.getElementById('myChart');
 
     // Create the chart
     new Chart(ctx, chartConfig);
-});
+}
+
+// Call the function to create the chart
+createChart();
