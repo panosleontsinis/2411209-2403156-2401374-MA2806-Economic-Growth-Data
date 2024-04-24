@@ -10,14 +10,7 @@ function draw() {
     circle(width/2, height/2, r/2);
   }
   
-  
-  /*
-    TASK: 
-    - Can you add a description of the data in this comment 
-      area in a similar way to the other examples?
-    - Can you resize the display so it fits in a smaller screen size?
-  */
-  
+
   
   let icon;
   let dataset;
@@ -25,8 +18,7 @@ function draw() {
   let margin = 50; //whitespace around edges of the chart
   let iconSize = 50;
   
-  
-  //load both image and table in the preload function
+
   function preload(){
     icon = loadImage('person.png');
     dataset = loadTable('uk-unemployment-00-19.csv', 'header');
@@ -36,13 +28,12 @@ function draw() {
     createCanvas(1050, 950); //width in pixels, height in pixels
     noStroke();
   }
-  
-  //draw is run in a loop
+
   function draw() {
     //draw a white background
     background(255, 254, 252);
     
-    //header
+
     fill(255, 0, 0);
     textFont("avenir");
     textAlign(RIGHT);
@@ -55,24 +46,24 @@ function draw() {
     fill(0);
     text("200,000 people", width-margin, 270);
     
-    //source
+
     textSize(15);
     text("Source: ONS", width-35, height-5);
     
-    //loop through each row
+
     for(let i=0; i<dataset.getRowCount(); i++){
       let unemployment = round(dataset.getNum(i, 1)/unit);
       
       //set fill colour to red again
       fill(255, 0, 0);
       
-      //add year label
+
       textSize(15);
       textAlign(CENTER);
       let samplePeriod = dataset.getString(i, 0);
       text(samplePeriod, margin, margin+i*(iconSize+20));
       
-      //loop to draw each unit in vertical column
+
       imageMode(CENTER);
       for(let j=0; j<unemployment; j++){
         fill(0);
