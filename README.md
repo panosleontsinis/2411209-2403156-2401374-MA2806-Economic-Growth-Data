@@ -1,4 +1,4 @@
-# Economic Growth Data in the UK
+# Economic Growth Data Website
 
 ## Screenshot of the Project
 
