@@ -1,7 +1,7 @@
 # Economic Growth Data Website
 
 ## Screenshot of the Project
-![Moodboard Image 3]()
+![Moodboard Image 3](https://github.com/panosleontsinis/2411209-2403156-2401374-MA2806-Economic-Growth-Data/blob/main/website1.JPG?raw=true)
 
 ## Theme
 The website is themed around data and statistics regarding economic data. Through different subsections within the website, data visualisations and images the website will compare global economies and give a wider image on economic factors.
